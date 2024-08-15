@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <USBHost_t36.h>
 
 // put function declarations here:
 int myFunction(int, int);
