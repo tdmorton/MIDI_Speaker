@@ -2,21 +2,32 @@
 #include <USBHost_t36.h>
 
 // put function declarations here:
-int myFunction(int, int);
-int result = 0;
+void pwm(int);
+
+// put variable declarations here:
+int led_status = 0;
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
-  result = myFunction(2, 3);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.println(result);
+  for (int i = 0; i < 20; i++)
+  {
+    pwm(i);
+    delay(16);
+  }
+  for (int i = 20; i >= 0; i--)
+  {
+    pwm(i);
+    delay(16);
+  }
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+void pwm(int pwmval) {
+    analogWrite(LED_BUILTIN, pwmval);
 }
