@@ -1,0 +1,9 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"P1";"USB_C_Receptacle_HRO_TYPE-C-31-M-17";1;"USB_C_Plug_USB2.0";;;
+2;"J2";"54-00175";1;"54-00175";;;
+3;"J1";"USB_A_CNCTech_1001-011-01101_Horizontal";1;"USB_A";;;
+4;"D2,D1";"D_0603_1608Metric";2;"LED";;;
+5;"C2,C1";"C_0603_1608Metric";2;"C";;;
+6;"U4";"ESP32-S3-MINI-1";1;"ESP32-S3-MINI-1";;;
+7;"U3";"QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm";1;"PAM8019KGR";;;
+8;"U2";"TSSOP-16_4.4x5mm_P0.65mm";1;"~";;;

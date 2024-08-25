@@ -1,0 +1,16 @@
+### Footprint positions - created on 2024-08-12T23:01:57-0400 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                       PosX       PosY       Rot  Side
+C1        C                  C_0603_1608Metric                         173.1000   -66.8125    0.0000  top
+C2        C                  C_0603_1608Metric                         173.1000   -69.3225    0.0000  top
+D1        LED                D_0603_1608Metric                         152.9100   -57.5000   90.0000  top
+D2        LED                D_0603_1608Metric                         155.5000   -57.5000   90.0000  top
+J1        USB_A              USB_A_CNCTech_1001-011-01101_Horizontal   188.5000   -78.0000    0.0000  top
+J2        54-00175           54-00175                                  164.9000   -50.3500  -90.0000  top
+P1        USB_C_Plug_USB2.0  USB_C_Receptacle_HRO_TYPE-C-31-M-17       194.5000   -55.5000   90.0000  top
+U2        ~                  TSSOP-16_4.4x5mm_P0.65mm                  177.1375   -59.6250    0.0000  top
+U3        PAM8019KGR         QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm       155.3750   -64.3750    0.0000  top
+U4        ESP32-S3-MINI-1    ESP32-S3-MINI-1                           161.5000   -78.0000  180.0000  top
+## End
